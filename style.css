@@ -16,7 +16,19 @@ color:white;
 text-align:center;
 padding:20px;
 }
+.search-box{
+text-align:center;
+margin:20px;
+}
 
+.search-box input{
+width:90%;
+max-width:450px;
+padding:12px;
+font-size:16px;
+border:2px solid #0f9d58;
+border-radius:8px;
+}
 nav{
 background:#222;
 padding:15px;
