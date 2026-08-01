@@ -35,21 +35,27 @@
 <h3>🥔 Potato</h3>
 <p>Price: ₹ --</p>
 </div>
+<button onclick="addToCart('Potato')">Add to Cart</button>
+
 
 <div class="card">
 <h3>🧅 Onion</h3>
 <p>Price: ₹ --</p>
 </div>
+<button onclick="addToCart('Onion')">Add to Cart</button>
 
 <div class="card">
 <h3>🍝 Macaroni</h3>
 <p>Price: ₹ --</p>
 </div>
+<button onclick="addToCart('Macaroni')">Add to Cart</button>
 
 <div class="card">
 <h3>🥟 Veg Momos</h3>
 <p>Price: ₹ --</p>
 </div>
+<button onclick="addToCart('Veg Momos')">Add to Cart</button>
+
 
 </section>
 
@@ -62,6 +68,8 @@
 <p>💳 UPI: 7820041833@fam</p>
 
 </footer>
-<script src="script.js"></script>
+<script src="script.js"></script>function addToCart(product){
+alert(product + " added to cart.");
+}
 </body>
 </html>
